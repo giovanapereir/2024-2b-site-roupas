@@ -1,1 +1,2 @@
-# 2024-2b-site-roupas
+# 2024-2b-site-publicidade-sacole
+Exercício em HTML e CSS
