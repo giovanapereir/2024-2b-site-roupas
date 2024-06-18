@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poetsen+One&display=swap');
+
+{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-um:#000814
+    --cor-dois: #bb9457
+    --cor-tres: #ffe6a7
+    --cor-quatro: #fdf0d5
+    --cor-cinco: rgb(0, 0, 0);
+    --texto-corpo: "Poetsen One", sans-serif;
+    --texto--titulo: "DM Sans", sans-serif;
+}
+
+body{
+    background: #3b3854;
+    color: whitesmoke;
+}
+.titulo-principal{
+    font-family: var(--texto--titulo);
+}
+.cabecalho{
+    background-color: var(--cor-um) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+.cabecalho-img{
+    width: 10%;
+    border-radius: 100%;
+}
+.cabecalho-nav__link{
+    text-decoration: antiquewhite;
+    font-family: var(--texto--titulo);
+    font-size: ;
+}
