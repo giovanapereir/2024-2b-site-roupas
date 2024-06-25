@@ -1,40 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poetsen+One&display=swap');
-
-{
-    margin: 0;
-    padding: 0;
-}
-
-:root{
-    --cor-um:#000814
-    --cor-dois: #bb9457
-    --cor-tres: #ffe6a7
-    --cor-quatro: #fdf0d5
-    --cor-cinco: rgb(0, 0, 0);
-    --texto-corpo: "Poetsen One", sans-serif;
-    --texto--titulo: "DM Sans", sans-serif;
-}
-
-body{
-    background: #3b3854;
-    color: whitesmoke;
-}
-.titulo-principal{
-    font-family: var(--texto--titulo);
-}
-.cabecalho{
-    background-color: var(--cor-um) ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px;
-}
-.cabecalho-img{
-    width: 10%;
-    border-radius: 100%;
-}
-.cabecalho-nav__link{
-    text-decoration: antiquewhite;
-    font-family: var(--texto--titulo);
-    font-size: ;
-}
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Poetsen+One&display=swap');
+ *{ margin: 0; 
+    padding: 0; }
+     body{ background-color:
+         var(--roxoescuro);
+          color: whitesmoke;
+           font-family:
+            var(--texto-corpo); } 
+            :root{ --roxoescuro: #ce6db9; 
+                --roxomeioescuro: #db7de4;
+                 --roxoclaro: #ec80e7; 
+                 --roxoclarinho: #000000;
+                  --texto-corpo: "Jersey 25 Charted", sans-serif; --texto-titulo: "Poetsen One", sans-serif; } .cabecalho{ background-color: var(--roxoclaro); display: flex; justify-content: space-between; align-items: center; padding: 12px; } .cabecalho-img{ width: 10%; border-radius: 60%; } .cabecalho-nav__link{ text-decoration: none; font-family: var(--texto--titulo); font-size: 24px; color: var(--roxoclarinho); margin-right: 24px }
+ .principal-capa{ display: flex; justify-content:center; align-items: center; gap: 24px; background-image: url(img/fundo.jpg); backg...
