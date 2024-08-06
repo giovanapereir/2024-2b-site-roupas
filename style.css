@@ -155,3 +155,7 @@ body {
     color: var(--branco);
     text-shadow: 3px 3px 5px var(--salmao-claro);
 }
+.propaganda02{
+    display: flex;
+    flex-direction: column;
+}
